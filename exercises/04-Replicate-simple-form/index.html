@@ -3,11 +3,31 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>4Geeks Academy</title>
+		<title>4Geeks Academy Replicate Simple Form</title>
+
+		<style>
+			th {
+				border: 2px solid black;
+				text-align: left;
+				background: rgb(218, 185, 250);
+				text-align: center;
+				padding: 3px;
+			}
+			td {
+				border: 1px solid black;
+				text-align: center;
+				padding: 3px;
+			}
+
+			table {
+				border: 1px solid black;
+			}
+		</style>
 	</head>
 	<body>
 		<form>
 			<!-- your code here -->
+
 			<table>
 				<tr>
 					<th>Name</th>
@@ -46,14 +66,15 @@
 						<label for="over200">Over 200 pounds</label>
 					</td>
 				</tr>
+				<!--       bottom table row -->
 				<tr>
-					<td>
+					<td colspan="2">
 						Describe your athletic ability: <br />
-						<input type="text" />
+						<input type="text" placeholder="My athletic ability is ..." />
 					</td>
 				</tr>
 				<tr>
-					<td>
+					<td colspan="2">
 						<input type="button" value="Enter my information" />
 					</td>
 				</tr>
