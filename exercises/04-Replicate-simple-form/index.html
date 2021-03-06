@@ -10,19 +10,52 @@
 			<!-- your code here -->
 			<table>
 				<tr>
-					<th><h5>Name</h5></th>
-					<th><h5>Value</h5></th>
-				</tr>
-				<tr>
 					<th>Name</th>
-					<th><input type="text" /></th>
+					<th>Value</th>
 				</tr>
 				<tr>
-					<th>Sex</th>
-					<th>
+					<td>Name</td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td>Sex</td>
+					<td>
 						<input type="radio" id="male" />
-						<label for="male">Male</label>
-					</th>
+						<label for="male">Male</label> <br />
+						<input type="radio" id="female" />
+						<label for="female">Female</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Eye Color</td>
+					<td>
+						<select name="Eye Color">
+							<option>green</option>
+							<option>brown</option>
+							<option>blue</option>
+							<option>balck</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Check all that apply</td>
+					<td>
+						<input type="checkbox" id="over6 " />
+						<label for="over6">Over 6 feet tall</label><br />
+						<input type="checkbox" id="over200 " />
+						<label for="over200">Over 200 pounds</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Describe your athletic ability: <br />
+						<input type="text" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" value="Enter my information" />
+					</td>
 				</tr>
 			</table>
 		</form>
